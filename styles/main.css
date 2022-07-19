@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+  background-size: contain;
+  min-height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 400px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+main .order-summary {
+  margin-top: 40px;
+  width: 350px;
+}
+main .order-summary h1 {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+main .order-summary p {
+  color: hsl(223deg, 47%, 23%);
+  opacity: 0.6;
+  font-weight: 600;
+  margin: 20px 0;
+}
+main .plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 10px;
+}
+main .plan .plan-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .plan #pname {
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+main .plan #pprice {
+  margin-top: 5px;
+  color: hsl(223deg, 47%, 23%);
+  opacity: 0.6;
+  font-size: 14px;
+  text-align: left;
+}
+main .plan img {
+  width: 30%;
+}
+main .plan a {
+  font-weight: 900;
+  color: hsl(245deg, 75%, 52%);
+  font-size: 14px;
+}
+main .plan a:hover {
+  color: hsl(245deg, 75%, 52%);
+  opacity: 0.6;
+}
+main #pay {
+  width: 350px;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 10px 5px 0px rgba(114, 128, 167, 0.34);
+}
+main #pay:hover {
+  background-color: hsl(245deg, 75%, 52%);
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+main #cancel-order {
+  background-color: transparent;
+  width: 350px;
+  border: none;
+  padding: 10px;
+  margin: 25px 0;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+  opacity: 0.6;
+  cursor: pointer;
+}
+main #cancel-order:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */
